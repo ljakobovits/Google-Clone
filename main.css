@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+* { 
+  outline: 1px solid black;
+}
+*/
+
+html {
+	position: relative;
+	min-height: 100%
+
+}
+
+body {
+	margin: 0 0 40px; 
+}
+
+#container {
+	margin: auto;
+	min-width: 800px;
+}
+
+#header {
+	position: relative;
+	height: 40px;
+	min-width: 800px;
+}
+
+/*
+
+#signin {
+	position: relative;
+	height: 20px;
+	left: 80%;
+	top:10px;
+	width: 200px;
+}
+*/
+
+#signin {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+	height: 30px;
+	width: 330px;
+}
+
+#signin a {
+	font-family: Arial, sans-serif;
+	position: relative;
+	padding-left: 20px;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	
+}
+
+#signin a:hover {
+	text-decoration: underline;
+}
+
+
+#signin img {
+	height: 25px;
+	width: 25px;
+	position: relative;
+	padding-left: 20px;
+	top: 7.5px;
+}
+
+
+
+#signin button {
+	position: relative;
+	margin-left: 20px;
+	height: 30px;
+	width: 80px;
+	background: linear-gradient(#4387fd,#4683ea);
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 1px white solid;
+}
+
+
+
+
+#topspace {
+	position: relative;
+	height: 80px;
+}
+
+#mainimage {
+	position: relative;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+
+}
+
+#mainimage img {
+	height: 100%;
+	margin-left: auto;
+
+}
+
+
+#searchbar {
+	position: relative;
+	height: 80px;
+	text-align: center;
+
+}
+
+#searchbar img {
+	height: 20px;
+	width: 20px;
+}
+
+
+
+#searchbar input {
+	width: 500px;
+	height: 25px;
+	background: url(images/microphone.png) no-repeat right center;
+	margin-top: 30px;
+	background-size: 20px;
+	border: #D3D3D3 1px solid;
+	
+}
+
+#searchbuttonspace {
+	position: relative;
+	height: 40px;
+	text-align: center;
+
+}
+
+#searchbuttonspace button {
+	position: relative;
+	margin: 10px;
+	height: 25px;
+	width: 100px;
+	border: #D3D3D3 1px solid;
+	background: rgba(0,0,0,.05);
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-color: #000000;
+	font-weight: bold;
+}
+
+
+#bottomspace {
+	position: relative;
+	height: 150px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background: rgba(0,0,0,.05);
+
+}
+
+#footerleft {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 20px;
+	width: 300px;
+}
+
+#footerleft a {
+	font-family: Arial, sans-serif;
+	position: relative;
+	padding-left: 20px;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	
+}
+
+#footerleft a:hover {
+	text-decoration: underline;
+}
+
+
+#footerright {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	height: 20px;
+	width: 200px;
+
+}
+
+#footerright a {
+	font-family: Arial, sans-serif;
+	position: relative;
+	padding-right: 20px;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	
+}
+
+#footerright a:hover {
+	text-decoration: underline;
+}
